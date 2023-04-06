@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEAUTY APP PROJECT</title>
+    
+    <style>
+        header {
+           display: flex;
+           justify-content: space-between;
+           font-size: 25px;
+           font-family: Arial;
+           padding: 10px;
+           position: sticky;
+           top: 10px;
+           text-shadow: 4px 4px 2px crimson;
+          
+        }
+        .back-color{
+            background-image: linear-gradient(to bottom right,white,grey);
+        }
+        .brand-title {
+            font-weight: bold;
+            font-size: 30px;
+            display: flex;
+            position:sticky;
+            top: 0px;
+            
+        
+           
+        }
+        nav span {
+            margin-right: 15px;
+            color: crimson;
+            
+        }
+        #bt{
+            color: black;
+            size: 0.2px;
+            display: flex;
+            position: sticky;
+            top: 5px;
+          
+
+        }
+        .offer{
+            display: flex;
+        }
+        .offer marquee {
+            font-size: 30px;
+            font-weight: 800;
+            color: #8ebf42;
+            font-family: sans-serif;
+        }
+        .button {
+            background-color:blue;
+            border-radius: 8px;
+            color: aliceblue;
+            padding: 10px 10px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 12px;
+            margin: 4px 2px;
+            cursor: pointer;
+            box-shadow: 0px 8px 16px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
+        }
+      .power{
+        font-family: DaunPenh;
+        position: sticky;
+        top: 50px;
+        margin-left: 60px;
+        margin-top: -20px;
+        font-weight: bold;
+      }
+      .brand{
+        margin-left: 1150px;
+        size: 0.5px;
+        position: sticky;
+        top: 0px;
+        font-weight: bold;
+        background-color: white;
+      }
+      .main-image{
+        border-radius: 30px; 
+        margin-left: 140px;
+        margin-bottom: 20px;
+        margin-top: 20px;
+        border: 2px solid white;
+        width:1200px;
+        height: 500px;
+        background: url("glowupimg/image7.jpg");
+     }
+    
+      .option{
+        margin-left: 500px;
+        margin-right: 600px;
+        font-size: 23px;
+        position: sticky;
+        top: 60px;
+        font-weight: bold;
+        background-color: antiquewhite;
+        justify-content: space-between;
+        
+      
+        
+      }
+      a{
+        text-decoration: none;
+        color: black;
+      }
+      .click-img{
+        display: flex;
+        width: 30px;
+        height: 150px;
+        column-gap: 20px;
+        justify-content: center;
+
+      }
+      
+     
+    .img-title{
+        margin-left: 20px;
+        font-size: 20px;
+    }
+    img{
+        transition: 3s;
+    }
+    img:hover{
+        transform:scale(1.5,1.5);
+        transition: 3s;
+    }
+    .card{
+        width: 200px;
+        padding: 20px;
+        margin: 10px;
+        box-shadow: 5px 7px 7px gray;
+    
+    }
+    .card-body{
+        text-align: center;
+        height: 10px;
+        width: 100px;
+    }
+    button{
+        width:100%;
+        font-size: 15px;
+        border: none;
+
+    }
+    section{
+        display: flex;
+        
+    }
+    .fall{
+        font-size: 30px;
+        color: deeppink;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px; 
+        font-family: cursive;
+        font-weight: bold;
+        background-color: lightgrey;
+    }
+    
+    .deal{
+        font-size: 30px;
+        color: deeppink;
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px; 
+        font-family: cursive;
+        font-weight: bold;
+        background-color: lightgrey;
+    }
+footer{
+    display:grid;
+    grid-template-columns: 6fr 6fr;
+    background-color: grey;
+    color: white;
+    padding: 10px;
+    font-family: Arial;
+
+}
+.left-panel{
+    display:grid;
+    grid-template-columns: 3fr 3fr 3fr 3fr;
+    border-right: 1px solid gray;
+
+}
+.right-panel{
+    display:grid;
+    grid-template-columns: 6fr 6fr;
+    padding-left: 20px;
+}
+.title{
+    color: gold;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.title~div{
+    margin-bottom: 5px;
+}
+.down{
+    display:flex ;
+    text-align: center;
+}
+
+    </style>
+</head>
+<body>
+<div class="back-color">
+        <div class="brand">
+           
+            <span class="bi bi-phone">Get App &nbsp;&nbsp;|</span>
+                <span class="bi bi-map">Store & Events &nbsp;&nbsp;|</span>
+                <span class="bi bi-gift">Gift card</span>
+             
+        </div>
+
+   
+    <div class="offer">
+        <marquee direction="down"><img src="glowupimg/image25.jpg" width="500" height="50"></marquee>
+        <marquee direction="down"><img src="glowupimg/image25.jpg" width="500" height="50"></marquee>
+        <marquee direction="down"><img src="glowupimg/image25.jpg" width="500" height="50"></marquee>    
+    </div>
+    
+    <header>
+        <div class="brand-title"><span class="bi bi-bag">&nbsp;MyGlowup</span></div>
+        
+    
+        </header>
+        <div class="power">powered by nykaa</div>
+        <div class="option">
+           <!--<nav>
+              <a href="#" target="_blank"><span>Makeup</span></a>
+              <a href="#" target="_blank"> <span>Skin</span></a>
+              <a href="#" target="_blank"><span>Hair</span></a>  
+               <a href="#" target="_blank"><span>Appliances</span></a>
+              
+            </nav>--> 
+        </div>
+        <div class="main-image">
+            
+        </div>
+       
+
+     <!-- <div class="click-img" id="zoom">
+           <a href="makeup.html" target="_blank"> <img src="glowupimg/makeup.jpg" width="150" height="150"></a>
+           <a href="skin.html"  target="_blank"><img src="glowupimg/skin.jpg" width="150" height="150"></a>
+           <a href="hair.html" target="_blank" ><img src="glowupimg/hair.jpg" width="150" height="150"></a>
+           <a href="appliances.html" target="_blank"><img src="glowupimg/Appliance.jpg" width="150" height="150"></a>
+          
+        </div> 
+        <div class="img-title">
+            <nav>
+            <span>Makeup &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Skin &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Hair</span>
+            <span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Appliances&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+           
+            </nav>
+        </div>-->
+        <div class="fall">
+            <span>Fall In Love With Amazing Products</span>
+        </div>
+        <section>
+       <div class="card">
+        <div class="card-header">
+         <img src="glowupimg/image1.jpg" width="100%" height="150">
+        </div>
+        <div class="card-body">
+            <div>
+                <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+            </div>
+        </div>
+       </div>
+       <div class="card">
+        <div class="card-header">
+            <img src="glowupimg/image2.jpg" width="100%" height="150">
+        </div>
+        <div class="card-body">
+            <div>
+                <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+            </div>
+        </div>
+       </div>
+       <div class="card">
+        <div class="card-header">
+            <img src="glowupimg/image3.jpg" width="100%" height="150">
+        </div>
+        <div class="card-body">
+            <div>
+                <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+            </div>
+        </div>
+       </div>
+       <div class="card">
+        <div class="card-header">
+            <img src="glowupimg/image4.jpg" width="100%" height="150">
+        </div>
+        <div class="card-body">
+            <div>
+                <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+            </div>
+        </div>
+       </div>
+       <div class="card">
+        <div class="card-header">
+            <img src="glowupimg/image5.jpg" width="100%" height="150">
+        </div>
+        <div class="card-body">
+            <div>
+                <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+            </div>
+        </div>
+       </div>
+       <div class="card">
+        <div class="card-header">
+            <img src="glowupimg/image6.jpeg" width="100%" height="150">
+        </div>
+        <div class="card-body">
+            <div>
+                <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+            </div>
+        </div>
+       </div>
+     </section>
+     <section>
+        <div class="card">
+            <div class="card-header">
+                <img src="glowupimg/image26.jpg" width="100%" height="150">
+            </div>
+            <div class="card-body">
+                <div>
+                    <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                </div>
+            </div></div>
+        <div class="card">
+            <div class="card-header">
+                <img src="glowupimg/image23.jpg" width="100%" height="150">
+            </div>
+            <div class="card-body">
+                <div>
+                    <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                </div>
+            </div></div>
+        <div class="card">
+            <div class="card-header">
+                <img src="glowupimg/image14.jpg" width="100%" height="150">
+            </div>
+            <div class="card-body">
+                <div>
+                    <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                </div>
+            </div>
+           </div>
+           <div class="card">
+            <div class="card-header">
+                <img src="glowupimg/image24.jpg" width="100%" height="150">
+            </div>
+            <div class="card-body">
+                <div>
+                    <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                </div>
+            </div></div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="glowupimg/image28.jpg" width="100%" height="150">
+                </div>
+                <div class="card-body">
+                    <div>
+                        <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                    </div>
+                </div></div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="glowupimg/image29.jpg" width="100%" height="150">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                        </div>
+                    </div></div>
+     </section>
+     <div class="deal">
+        <span>Special Deals You'll Love</span>
+    </div>
+     <section>
+   <div class="card">
+    <div class="card-header">
+        <img src="glowupimg/image9.jpg" width="100%" height="150">
+    </div>
+    <div class="card-body">
+        <div>
+            <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+        </div>
+    </div></div>
+    <div class="card">
+        <div class="card-header">
+            <img src="glowupimg/image18.jpg" width="100%" height="150">
+        </div>
+        <div class="card-body">
+            <div>
+                <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+            </div>
+        </div></div>
+        <div class="card">
+            <div class="card-header">
+                <img src="glowupimg/image19.jpg" width="100%" height="150">
+            </div>
+            <div class="card-body">
+                <div>
+                    <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                </div>
+            </div></div>
+            <div class="card">
+                <div class="card-header">
+                    <img src="glowupimg/image20.jpg" width="100%" height="150">
+                </div>
+                <div class="card-body">
+                    <div>
+                        <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                    </div>
+                </div></div>
+                <div class="card">
+                    <div class="card-header">
+                        <img src="glowupimg/image21.jpg" width="100%" height="150">
+                    </div>
+                    <div class="card-body">
+                        <div>
+                            <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                        </div>
+                    </div></div>
+                    <div class="card">
+                        <div class="card-header">
+                            <img src="glowupimg/image27.jpeg" width="100%" height="150">
+                        </div>
+                        <div class="card-body">
+                            <div>
+                                <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                            </div>
+                        </div></div>
+                        <div class="card">
+                            <div class="card-header">
+                                <img src="glowupimg/image30.jpg" width="100%" height="150">
+                            </div>
+                            <div class="card-body">
+                                <div>
+                                    <button>Shop now <span class="bi bi-arrow-right"></span> </button>
+                                </div>
+                            </div></div>
+       </section>
+       </div>
+      <footer>
+        <div class="left-panel">
+            <div>
+                <div class="title">ABOUT</div>
+                <div>Contact Us</div>
+                <div>About us</div>
+                <div>Careers</div>
+                <div>My Glowup stories</div>
+                <div>press</div>
+                <div>My Glowup Wholesale</div>
+                <div>Corporate Information</div>
+            </div>
+            <div>
+                <div class="title">HELP</div>
+                <div>Payments</div>
+                <div>Shipping</div>
+                <div>Cancellation & Returns</div>
+                <div>FAQ</div>
+            </div>
+            <div>
+                <div class="title">POLICY</div>
+                <div>Return Policy</div>
+                <div>Terms of use</div>
+                <div>Security</div>
+                <div>Privacy</div>
+            </div>
+            <div>
+                <div class="title">SOCIAL</div>
+                <div class="bi bi-facebook">&nbsp;Facebook</div>
+                <div class="bi bi-twitter">&nbsp;Twitter</div>
+                <div class="bi bi-youtube">&nbsp;Youtube</div>
+            </div>
+        </div>
+        <div class="right-panel">
+            <div>
+                <div class="title">Mail-us:</div>
+                <div>
+                   <a href="mailto:email">manisha.mahapatra2001@gmail.com</a> 
+                </div>
+            </div>
+            <div>
+                <div class="title">Registered office Address</div>
+                <div>
+                    Manisha's private limited<br>
+                    Buildings Raj Nivas  <br>
+                    Baharagora,Jamshedpur<br>
+                    jharkhand<br>
+                    <a href="tel:mobileNumber">telephone-7008088207</a>
+                </div>
+            </div>
+        </div>
+        <div class="down">
+        <div class="bi bi-truck">FREE SHIPPING</div><br>
+        <div class="bi bi-repeat">EASY RETURNS</div><br>
+        <div class="bi bi-tag-fill">1900+ BRANDS</div>
+        </div>
+     </div>
+      </footer>
+    </body>
+</html>
